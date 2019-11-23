@@ -48,7 +48,7 @@ module.exports = {
         changeOrigin: true,
         pathRewrite: {
           // 路径重写，
-          "^/apb": "" // 替换target中的请求地址
+          "^/apb": "" // 替换target中的请求地址。
         }
       }
     },
